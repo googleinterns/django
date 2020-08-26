@@ -348,7 +348,7 @@ Some browsers have the ability to isolate top-level windows from other documents
 by putting them in a separate browsing context group based on the value of the 
 cross-origin opener policy (COOP) header. If a document that is isolated in this 
 way opens a popup window, the popup’s window.opener property will be null. Isolating
-windows using COOP is a defense in depth protection against cross-origin attacks, 
+windows using COOP is a defense-in-depth protection against cross-origin attacks, 
 especially those like Spectre which make data loaded into a shared browsing context
 group vulnerable. 
 
